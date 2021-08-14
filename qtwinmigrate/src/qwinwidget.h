@@ -69,7 +69,7 @@ class QT_QTWINMIGRATE_EXPORT QWinWidget : public QWidget
 {
     Q_OBJECT
 public:
-    QWinWidget( HWND hParentWnd, QObject *parent = 0, Qt::WindowFlags f = 0 );
+    QWinWidget( HWND hParentWnd, QObject *parent = 0, Qt::WindowFlags f = Qt::Widget );
 #ifdef QTWINMIGRATE_WITHMFC
     QWinWidget( CWnd *parnetWnd, QObject *parent = 0, Qt::WindowFlags f = 0 );
 #endif
