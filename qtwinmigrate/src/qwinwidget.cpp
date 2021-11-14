@@ -48,6 +48,8 @@
 #undef UNICODE
 #endif
 
+#include <QApplication>
+
 #include "qmfcapp.h"
 
 #ifdef QTWINMIGRATE_WITHMFC
